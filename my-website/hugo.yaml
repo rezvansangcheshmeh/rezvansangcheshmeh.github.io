@@ -1,0 +1,706 @@
+baseURL: "https://rezvansangcheshmeh.github.io"
+languageCode: "en-us"
+title: "Rezvan Sangcheshmeh - AI & Computer Vision Specialist"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# ===== MAIN NAVIGATION =====
+# Menus:
+#   main:
+#     - identifier: about
+#       name: About Me
+#       url: /#about
+#       weight: 1
+#     - identifier: experience
+#       name: Experience
+#       url: /#experience
+#       weight: 2
+#     - identifier: education
+#       name: Education
+#       url: /#education
+#       weight: 3
+#     - identifier: projects
+#       name: Projects
+#       url: /#projects
+#       weight: 4
+#     - identifier: achievements
+#       name: Achievements
+#       url: /#achievements
+#       weight: 5
+#     - identifier: skills
+#       name: Skills
+#       url: /#skills
+#       weight: 6
+#     - identifier: contact
+#       name: Contact
+#       url: /#contact
+#       weight: 7
+#     - identifier: blog
+#       name: Blog
+#       url: /blogs
+#       weight: 8
+
+# ===== SITE PARAMETERS =====
+params:
+  # ===== BASIC INFO =====
+  title: "Rezvan Sangcheshmeh"
+  description: "AI & Computer Vision Specialist | Deep Learning Engineer | Real-time Object Detection Expert"
+  favicon: "/fav.png"
+  
+  # Personal Info
+  email: "rezvan.sangcheshmeh@example.com"
+  mobile: "+98 912 345 6789"
+  location: "Tehran, Iran"
+
+  # ===== SITE SETTINGS =====
+  useBootstrapCDN: false
+  mathjax: false
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light"
+
+  font:
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+
+  # ===== NAVBAR CONFIGURATION =====
+  navbar:
+    align: "ms-auto"
+    brandName: "Rezvan Sangcheshmeh"
+    disableSearch: false
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+      disableBlog: false
+
+  # ===== HERO SECTION =====
+  hero:
+    enable: true
+    intro: "Hi, I'm"
+    title: "Rezvan Sangcheshmeh"
+    subtitle: "AI & Computer Vision Specialist"
+    content: "Passionate about creating intelligent systems that see, understand, and interact with the world. I specialize in real-time object detection, deep learning, and building scalable AI solutions that solve complex real-world problems."
+    image: "/images/hero_my.jpg"
+    bottomImage:
+      enable: true
+    button:
+      enable: true
+      name: "Download Resume"
+      url: "/documents/rezvan_resume.pdf"
+      download: true
+      newPage: true
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/rezvansangcheshmeh
+        - icon: fab fa-linkedin
+          url: https://linkedin.com/in/rezvansangcheshmeh
+        - icon: fab fa-twitter
+          url: https://twitter.com/rezvansangcheshmeh
+        - icon: fab fa-kaggle
+          url: https://kaggle.com/rezvansangcheshmeh
+
+  # ===== ABOUT SECTION =====
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/me.jpg"
+    content: |-
+      **AI & Machine Learning Specialist** with 4+ years of experience in developing cutting-edge computer vision and deep learning solutions. I bridge the gap between complex AI research and practical, scalable applications.
+
+      My expertise spans **real-time object detection, anomaly recognition, LLM integration, and algorithmic trading systems**, with a proven track record of delivering AI-powered products that solve real-world problems in finance, security, and industrial automation.
+
+      When I'm not training models, I'm mentoring developers, contributing to open-source projects, or exploring the philosophical implications of artificial intelligence.
+    skills:
+      enable: true
+      title: "Core Technical Competencies"
+      items:
+        - "Deep Learning (PyTorch, TensorFlow, Keras)"
+        - "Computer Vision & OpenCV"
+        - "Real-time Object Detection (YOLO)"
+        - "LLM Integration (Ollama, LangChain)"
+        - "Anomaly Detection Systems"
+        - "Time Series Forecasting"
+        - "API Development (FastAPI, Django)"
+        - "PostgreSQL & Database Design"
+        - "Docker & MLOps"
+        - "Git & Version Control"
+
+  # ===== TECHNICAL SKILLS SECTION =====
+  technicalSkills:
+    enable: true
+    title: "Technical Stack"
+    categories:
+      - name: "AI & Machine Learning"
+        items:
+          - "Deep Learning: PyTorch, TensorFlow, Keras, CNNs, RNNs, Transformers, Autoencoders, GANs"
+          - "Computer Vision: YOLO, MediaPipe, OpenCV, MMPose, Object Detection, Face Recognition"
+          - "NLP: BERT, LLM Integration (Ollama, LangChain), Hugging Face Transformers, Speech-to-Text"
+          - "MLOps: Model Deployment, Monitoring, Versioning, Docker, CI/CD"
+          
+      - name: "Backend Development & Databases"
+        items:
+          - "Python: Django, FastAPI, Flask, REST APIs, WebSocket"
+          - "Databases: PostgreSQL, MySQL, MongoDB, Redis, Database Design"
+          - "Real-time Systems: WebSocket, Streaming, Real-time Processing"
+          - "DevOps: Docker, Git/GitHub, Linux, Cloud Deployment"
+          
+      - name: "Data Science & Analysis"
+        items:
+          - "Data Analysis: Pandas, NumPy, Matplotlib, Plotly, Jupyter"
+          - "Time Series: LSTM, Transformer-based Forecasting, ARIMA, Prophet"
+          - "Visualization: Streamlit, Dash, Interactive Dashboards"
+          - "Statistical Modeling: Hypothesis Testing, EDA, Feature Engineering"
+
+  # ===== SOFT SKILLS SECTION =====
+  softSkills:
+    enable: true
+    title: "Professional Competencies"
+    categories:
+      - name: "Leadership & Management"
+        items:
+          - "Technical Team Leadership & Mentorship"
+          - "Project Management & Agile Planning"
+          - "Stakeholder Communication & Presentation"
+          - "Technical Documentation & Knowledge Transfer"
+          
+      - name: "Problem Solving & Innovation"
+        items:
+          - "Critical Thinking & Analytical Reasoning"
+          - "Research & Development (R&D)"
+          - "Algorithm Design & Optimization"
+          - "Creative Solution Development"
+
+  # ===== LANGUAGES SECTION =====
+  languages:
+    enable: true
+    title: "Languages"
+    items:
+      - language: "Persian (Farsi)"
+        level: "Native"
+        proficiency: 100
+      - language: "English"
+        level: "Professional Proficiency"
+        proficiency: 85
+      - language: "Tajik"
+        level: "Fluent"
+        proficiency: 90
+
+  # ===== EXPERIENCE SECTION =====
+  experience:
+    enable: true
+    items:
+      - company: "Hamoon Startup Company"
+        companyUrl: "https://linkedin.com/company/hamoon"
+        jobs:
+          - name: "Chief Technology Officer (CTO)"
+            date: "May 2022 – Present"
+            content: |-
+              Led the full technical lifecycle of AI-powered product development for Education and Finance sectors, from concept to deployment.
+              
+              - Architected and implemented robust, scalable backend systems using Django, FastAPI, PostgreSQL, and Redis
+              - Developed and deployed LLM-based assistants (Ollama) for internal operations, enhancing team productivity by 40%
+              - Managed and mentored a cross-functional team of 7 developers, fostering high-performance environment
+              - Oversaw successful project deliveries and technical strategy for AI applications in education and finance
+            techStack: ["Python", "Django", "FastAPI", "PostgreSQL", "Redis", "Docker", "LLM", "Ollama", "Team Leadership", "System Architecture"]
+            featuredItems:
+              fontAwesomeIcons:
+                - icon: fa-brands fa-python
+                  tooltip: Python & Django
+                - icon: fa-solid fa-database
+                  tooltip: PostgreSQL & Redis
+                - icon: fa-brands fa-react
+                  tooltip: FastAPI
+                - icon: fa-solid fa-robot
+                  tooltip: AI/ML Systems
+                - icon: fa-solid fa-users
+                  tooltip: Team Leadership
+
+      - company: "AI Consultant & Independent Projects"
+        companyUrl: "https://linkedin.com/in/rezvansangcheshmeh"
+        jobs:
+          - name: "AI Consultant & Project Lead"
+            date: "May 2022 – May 2024"
+            content: |-
+              Provided expert AI consulting services specializing in custom deep learning solutions for industrial applications and financial systems.
+              
+              - Led end-to-end development of independent AI projects including design, training, and deployment
+              - Specialized in industrial anomaly detection and time series forecasting with 95%+ accuracy
+              - Developed computer vision systems for real-time monitoring and quality control
+              - Delivered tailored AI strategies addressing specific business challenges in various industries
+            techStack: ["Deep Learning", "Computer Vision", "Time Series Analysis", "Anomaly Detection", "Consulting", "Project Management"]
+            featuredItems:
+              fontAwesomeIcons:
+                - icon: fa-solid fa-brain
+                  tooltip: Deep Learning
+                - icon: fa-solid fa-chart-line
+                  tooltip: Time Series Analysis
+                - icon: fa-solid fa-eye
+                  tooltip: Computer Vision
+                - icon: fa-solid fa-search
+                  tooltip: Anomaly Detection
+                - icon: fa-solid fa-handshake
+                  tooltip: Consulting
+
+      - company: "Subtek Company"
+        companyUrl: "https://linkedin.com/company/subtek"
+        jobs:
+          - name: "AI Team Lead"
+            date: "May 2021 – May 2022"
+            content: |-
+              Directed computer vision projects and built deep learning pipelines for industrial applications and security systems.
+              
+              - Managed face recognition and anomaly detection projects with real-time processing capabilities
+              - Built deep learning pipelines with PyTorch and TensorFlow for industrial video analytics
+              - Integrated models into real-time systems using OpenCV and custom APIs
+              - Led technical team in developing computer vision solutions for security and monitoring applications
+            techStack: ["PyTorch", "TensorFlow", "OpenCV", "Real-time Systems", "Computer Vision", "Team Leadership"]
+            featuredItems:
+              fontAwesomeIcons:
+                - icon: fa-brands fa-python
+                  tooltip: PyTorch & TensorFlow
+                - icon: fa-solid fa-video
+                  tooltip: OpenCV
+                - icon: fa-solid fa-bolt
+                  tooltip: Real-time Systems
+                - icon: fa-solid fa-shield-alt
+                  tooltip: Security Systems
+
+      - company: "Adib University"
+        companyUrl: "https://adib.ac.ir"
+        jobs:
+          - name: "Lecturer"
+            date: "May 2021 – May 2022"
+            content: |-
+              Taught undergraduate courses and supervised student projects in AI, data science, and programming.
+              
+              - Courses: Data Mining, Python Programming, Introduction to Artificial Intelligence
+              - Supervised student projects on applied machine learning and computer vision
+              - Developed curriculum and practical assignments for AI and data science courses
+              - Mentored students in implementing real-world AI solutions and research projects
+            techStack: ["Teaching", "Curriculum Development", "Student Mentorship", "AI Education", "Research Supervision"]
+            featuredItems:
+              fontAwesomeIcons:
+                - icon: fa-solid fa-graduation-cap
+                  tooltip: Teaching & Education
+                - icon: fa-solid fa-chart-bar
+                  tooltip: Data Mining
+                - icon: fa-brands fa-python
+                  tooltip: Python Programming
+                - icon: fa-solid fa-flask
+                  tooltip: Research Supervision
+
+  # ===== EDUCATION SECTION =====
+  education:
+    enable: true
+    items:
+      - title: "M.Sc. in Computer Engineering - Artificial Intelligence"
+        school:
+          name: "Kharazmi University"
+          url: "https://khu.ac.ir"
+        date: "Sep 2017 – Jan 2020"
+        GPA: "18.72/20 (Ranked 1st in Department)"
+        content: |-
+          **Specialization:** Artificial Intelligence & Deep Learning
+          
+          **Thesis:** "Recognizing Bank Suspicious Loan Applicants Using Deep Learning"
+          - Developed a deep learning model to detect fraudulent loan applications with 94% accuracy
+          - Implemented using Python, TensorFlow, and Keras with advanced imbalanced data handling techniques
+          - Published research on financial fraud detection using deep neural networks
+          - Focused on real-world applications of AI in financial security
+
+          **Key Courses:** Advanced Machine Learning, Computer Vision, Natural Language Processing, Deep Learning Architectures, Neural Networks, Pattern Recognition
+        featuredLink:
+          enable: true
+          name: "View Thesis Abstract"
+          url: "#"
+
+      - title: "B.Sc. in Computer Engineering - Hardware"
+        school:
+          name: "Mazandaran University"
+          url: "https://umz.ac.ir"
+        date: "Sep 2010 – Aug 2013"
+        GPA: "15.80/20"
+        content: |-
+          **Specialization:** Hardware Engineering & Embedded Systems
+          
+          **Focus Areas:** Digital Systems Design, Computer Architecture, Microprocessors, FPGA Programming, Embedded Systems
+          - Designed and implemented various digital circuits and embedded systems
+          - Gained hands-on experience with microprocessors and FPGA development
+          - Developed strong foundation in computer engineering fundamentals and low-level programming
+          - Completed projects in hardware design and system architecture
+        featuredLink:
+          enable: true
+          name: "View Academic Projects"
+          url: "#"
+
+  # ===== PROJECTS SECTION =====
+  projects:
+    enable: true
+    title: "AI Projects & Innovations"
+    items:
+      - title: "Real-time Video Anomaly Detection System"
+        content: "Advanced computer vision system for detecting unusual activities in industrial surveillance footage using ensemble of autoencoders and YOLO-based object tracking. Capable of processing 30 FPS in real-time with 92% detection accuracy across multiple camera feeds."
+        image: "/images/projects/anomaly-detection.jpg"
+        featured:
+          name: "Live Demo"
+          link: "#"
+        badges:
+          - "Python"
+          - "OpenCV"
+          - "YOLOv8"
+          - "Autoencoders"
+          - "Real-time"
+          - "Computer Vision"
+        techStack:
+          - icon: fa-brands fa-python
+            name: "Python"
+          - icon: fa-solid fa-eye
+            name: "OpenCV"
+          - icon: fa-solid fa-brain
+            name: "YOLOv8"
+          - icon: fa-solid fa-wave-square
+            name: "Autoencoders"
+          - icon: fa-solid fa-bolt
+            name: "Real-time Processing"
+          - icon: fa-solid fa-video
+            name: "Video Analytics"
+        links:
+          - icon: fab fa-github
+            url: "#"
+            tooltip: "View Source Code"
+          - icon: fa-solid fa-eye
+            url: "#"
+            tooltip: "Live Demo"
+          - icon: fa-solid fa-file-pdf
+            url: "#"
+            tooltip: "Project Documentation"
+
+      - title: "Human Pose Estimation & Movement Analysis"
+        content: "Real-time human movement analysis and gesture recognition system using MediaPipe and MMPose. Applications in fitness tracking, security monitoring, and human-computer interaction with multi-person tracking capability and 3D pose estimation."
+        image: "/images/projects/pose-estimation.jpg"
+        featured:
+          name: "Try Demo"
+          link: "#"
+        badges:
+          - "MediaPipe"
+          - "MMPose"
+          - "Real-time"
+          - "Computer Vision"
+          - "Python"
+          - "3D Tracking"
+        techStack:
+          - icon: fa-brands fa-python
+            name: "Python"
+          - icon: fa-solid fa-person
+            name: "MediaPipe"
+          - icon: fa-solid fa-chart-line
+            name: "MMPose"
+          - icon: fa-solid fa-bolt
+            name: "Real-time Processing"
+          - icon: fa-solid fa-running
+            name: "Motion Analysis"
+          - icon: fa-solid fa-cube
+            name: "3D Estimation"
+        links:
+          - icon: fab fa-github
+            url: "#"
+            tooltip: "View Source Code"
+          - icon: fa-solid fa-play
+            url: "#"
+            tooltip: "Interactive Demo"
+          - icon: fa-solid fa-video
+            url: "#"
+            tooltip: "Demo Video"
+
+      - title: "Interactive Text-Based Detective Game"
+        content: "Django-powered mystery game with dynamic story progression where users solve crimes through evidence examination and interactive dialogue. Features NLP-based conversation system, multiple story branches, and character relationship management."
+        image: "/images/projects/detective-game.jpg"
+        featured:
+          name: "Play Game"
+          link: "#"
+        badges:
+          - "Django"
+          - "Python"
+          - "NLP"
+          - "Interactive Fiction"
+          - "Web Development"
+          - "PostgreSQL"
+        techStack:
+          - icon: fa-brands fa-python
+            name: "Django"
+          - icon: fa-solid fa-gamepad
+            name: "Interactive Gameplay"
+          - icon: fa-solid fa-comment
+            name: "NLP Dialogue"
+          - icon: fa-solid fa-database
+            name: "PostgreSQL"
+          - icon: fa-brands fa-js
+            name: "JavaScript"
+          - icon: fa-solid fa-code-branch
+            name: "Branching Narrative"
+        links:
+          - icon: fab fa-github
+            url: "#"
+            tooltip: "View Source Code"
+          - icon: fa-solid fa-play
+            url: "#"
+            tooltip: "Play Game"
+          - icon: fa-solid fa-book
+            url: "#"
+            tooltip: "Game Design Doc"
+
+      - title: "Algorithmic Trading with Genetic Optimization"
+        content: "AI-driven trading system using genetic algorithms to optimize strategy parameters and LSTM networks for market pattern recognition. Features real-time portfolio management, risk assessment, and comprehensive backtesting capabilities with performance analytics."
+        image: "/images/projects/algorithmic-trading.jpg"
+        featured:
+          name: "Strategy Demo"
+          link: "#"
+        badges:
+          - "Genetic Algorithms"
+          - "Machine Learning"
+          - "LSTM"
+          - "Financial AI"
+          - "Python"
+          - "Risk Management"
+        techStack:
+          - icon: fa-solid fa-dna
+            name: "Genetic Algorithms"
+          - icon: fa-solid fa-chart-line
+            name: "LSTM Networks"
+          - icon: fa-solid fa-coins
+            name: "Financial Markets"
+          - icon: fa-solid fa-shield-alt
+            name: "Risk Management"
+          - icon: fa-brands fa-python
+            name: "Python"
+          - icon: fa-solid fa-chart-bar
+            name: "Backtesting"
+        links:
+          - icon: fab fa-github
+            url: "#"
+            tooltip: "View Source Code"
+          - icon: fa-solid fa-chart-line
+            url: "#"
+            tooltip: "Strategy Demo"
+          - icon: fa-solid fa-file-alt
+            url: "#"
+            tooltip: "Research Paper"
+
+      - title: "License Plate Recognition & OCR System"
+        content: "High-accuracy Automatic Number Plate Recognition (ANPR) system capable of processing multiple plates in real-time under various conditions. Features robust character segmentation, recognition with 98% accuracy in daylight conditions, and support for multiple plate formats."
+        image: "/images/projects/license-plate.jpg"
+        featured:
+          name: "See Demo"
+          link: "#"
+        badges:
+          - "OCR"
+          - "Computer Vision"
+          - "Real-time"
+          - "OpenCV"
+          - "Python"
+          - "Image Processing"
+        techStack:
+          - icon: fa-solid fa-car
+            name: "ANPR System"
+          - icon: fa-solid fa-text-height
+            name: "OCR Engine"
+          - icon: fa-solid fa-bolt
+            name: "Real-time Processing"
+          - icon: fa-solid fa-eye
+            name: "OpenCV"
+          - icon: fa-solid fa-crop
+            name: "Image Processing"
+          - icon: fa-solid fa-tachometer-alt
+            name: "High Accuracy"
+        links:
+          - icon: fab fa-github
+            url: "#"
+            tooltip: "View Source Code"
+          - icon: fa-solid fa-eye
+            url: "#"
+            tooltip: "Live Demo"
+          - icon: fa-solid fa-camera
+            url: "#"
+            tooltip: "Sample Images"
+
+      - title: "Social Media Crime Detection System"
+        content: "Deep NLP classifier using BERT and custom models to detect criminal content in Persian-language social media. Implements multi-label classification for various crime categories with real-time monitoring capabilities and alert system integration."
+        image: "/images/projects/crime-detection.jpg"
+        featured:
+          name: "API Demo"
+          link: "#"
+        badges:
+          - "NLP"
+          - "BERT"
+          - "Python"
+          - "FastAPI"
+          - "Deep Learning"
+          - "Social Media Analysis"
+        techStack:
+          - icon: fa-solid fa-shield-alt
+            name: "Security Monitoring"
+          - icon: fa-solid fa-language
+            name: "NLP Processing"
+          - icon: fa-solid fa-brain
+            name: "BERT Model"
+          - icon: fa-solid fa-bolt
+            name: "FastAPI"
+          - icon: fa-brands fa-python
+            name: "Python"
+          - icon: fa-solid fa-bell
+            name: "Alert System"
+        links:
+          - icon: fab fa-github
+            url: "#"
+            tooltip: "View Source Code"
+          - icon: fa-solid fa-code
+            url: "#"
+            tooltip: "API Demo"
+          - icon: fa-solid fa-chart-bar
+            url: "#"
+            tooltip: "Performance Metrics"
+
+  # ===== ACHIEVEMENTS SECTION =====
+  achievements:
+    enable: true
+    title: "Awards & Recognition"
+    items:
+      - title: "Ranked 1st in Master's Degree"
+        content: "Achieved top rank among 150 students in Computer Engineering - AI specialization with outstanding academic performance and research contributions. Recognized for excellence in artificial intelligence and deep learning research."
+        image: "/images/achievements/first-rank.jpg"
+        featured: true
+
+      - title: "AI Research Publication"
+        content: "Published research paper on 'Deep Learning Approaches for Financial Fraud Detection' in reputable computer science journal. Contributed novel methodologies for fraud detection using neural networks."
+        url: "#"
+        image: "/images/achievements/research-paper.jpg"
+        featured: true
+
+      - title: "Hackathon Winner - AI Innovation"
+        content: "Won first place in national AI hackathon for developing real-time anomaly detection system for industrial safety. Recognized for innovative approach to computer vision in safety monitoring."
+        url: "#"
+        image: "/images/achievements/hackathon.jpg"
+
+      - title: "Open Source Contributor"
+        content: "Active contributor to multiple AI and computer vision open source projects with 500+ GitHub stars collectively. Maintained and improved libraries for computer vision and deep learning applications."
+        url: "https://github.com/rezvansangcheshmeh"
+        image: "/images/achievements/opensource.jpg"
+
+  # ===== INTERESTS SECTION =====
+  interests:
+    enable: true
+    title: "Beyond Code"
+    subtitle: "Exploring the intersection of technology, philosophy, and creativity"
+    items:
+      - category: "Technical Philosophy"
+        items:
+          - "Ethical AI Development & Responsible Innovation"
+          - "Philosophy of Mind & Consciousness Studies"
+          - "Human-AI Collaboration & Augmented Intelligence"
+          - "Future of Intelligent Systems & Technological Evolution"
+          
+      - category: "Creative Pursuits"
+        items:
+          - "Competitive Chess Strategy & Tournament Play"
+          - "Music Theory & Composition (Guitar & Piano)"
+          - "Photography & Visual Storytelling Techniques"
+          - "Creative Writing & Science Fiction Literature"
+          
+      - category: "Physical & Mental Wellness"
+        items:
+          - "Swimming & Endurance Training"
+          - "Meditation & Mindfulness Practices"
+          - "Strategic Games & Complex Problem Solving"
+          - "Nature Exploration & Outdoor Activities"
+
+  # ===== CONTACT SECTION =====
+  contact:
+    enable: true
+    title: "Let's Build Something Amazing"
+    content: "I'm always excited to discuss new opportunities, collaborate on innovative projects, or explore the future of AI together. Whether you need cutting-edge AI solutions, technical consulting, or just want to talk about the philosophy of artificial intelligence, I'd love to connect!"
+    btnName: "Send Message"
+    btnLink: "mailto:rezvan.sangcheshmeh@example.com?subject=AI Collaboration Opportunity"
+    
+    # Optional: Contact Form
+    # formspree:
+    #   enable: false
+    #   formId: "your-form-id"
+    #   emailCaption: "Your Email Address"
+    #   messageCaption: "Your Project Details"
+    #   messageRows: 6
+
+  # ===== FOOTER SECTION =====
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: "Recent Articles"
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: "https://github.com/rezvansangcheshmeh"
+      linkedin: "https://linkedin.com/in/rezvansangcheshmeh"
+      twitter: "https://twitter.com/rezvansangcheshmeh"
+      kaggle: "https://kaggle.com/rezvansangcheshmeh"
+      email: "mailto:rezvan.sangcheshmeh@example.com"
+
+  # ===== BLOG SETTINGS =====
+  listPages:
+    disableFeaturedImage: false
+
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # ===== INTERNATIONALIZATION =====
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "January 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2"
+
+# ===== CUSTOM CSS/JS (OPTIONAL) =====
+# customCSS: []
+# customJS: []

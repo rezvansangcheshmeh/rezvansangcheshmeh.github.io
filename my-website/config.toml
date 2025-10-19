@@ -1,0 +1,15 @@
+baseURL: 'https://rezvansangcheshmeh.github.io/'
+languageCode: en-us
+title: 'Rezvan Sangcheshmeh'
+theme: 'hugo-profile'
+
+params:
+  title: 'Rezvan Sangcheshmeh'
+  description: 'Web Developer & Programmer'
+  author: 'Rezvan Sangcheshmeh'
+  image: 'images/avatar.jpg'
+  
+  # Contact info
+  email: 'your.email@example.com'
+  mobile: '+98 912 345 6789'
+  location: 'Tehran, Iran'
