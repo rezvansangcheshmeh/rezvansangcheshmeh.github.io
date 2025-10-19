@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software Architecture on Rezvan Sangcheshmeh - AI &amp; Computer Vision Specialist</title>
+    <link>http://localhost:1313/tags/software-architecture/</link>
+    <description>Recent content in Software Architecture on Rezvan Sangcheshmeh - AI &amp; Computer Vision Specialist</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/software-architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastering System Design: A Deep Dive into Alex Xu&#39;s Interview Guide</title>
+      <link>http://localhost:1313/blogs/system-design-interview-review/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/system-design-interview-review/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/blog/system-design-book-cover.jpg&#34; alt=&#34;System Design Interview Book Cover&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Just finished Volume 1 of &lt;strong&gt;&amp;ldquo;System Design Interview&amp;rdquo; by Alex Xu&lt;/strong&gt;, and I must say it&amp;rsquo;s a game-changer for any engineer working on large-scale systems.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-makes-this-book-exceptional&#34;&gt;What Makes This Book Exceptional?&lt;/h2&gt;&#xA;&lt;p&gt;Unlike traditional theoretical approaches, this book tackles &lt;strong&gt;real-world scalability challenges head-on&lt;/strong&gt; - specifically focusing on the journey from &lt;strong&gt;Zero to Millions of Users&lt;/strong&gt;. Each chapter presents a concrete problem and walks through the solution step by step.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
