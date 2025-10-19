@@ -1,5 +1,18 @@
-<footer>
-    <p> Powered by<a href="https://github.com/sujaykundu777/devlopr-jekyll"> devlopr jekyll</a>. Hosted with <a href="https://pages.github.com">Github Pages</a>. Subscribe via
-        <a href="{{ " /feed.xml " | prepend: site.baseurl }}">RSS</a>
-    </p>
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p class="powered-by">
+          © {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
+          Built with <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> and 
+          <a href="https://github.com/sujaykundu777/devlopr-jekyll" rel="nofollow">Devlopr Jekyll</a> theme.
+        </p>
+        <p>
+          <a href="https://github.com/rezvansangcheshmeh">GitHub</a> • 
+          <a href="/contact/">Contact</a> • 
+          <a href="/about/">About</a>
+        </p>
+      </div>
+    </div>
+  </div>
 </footer>
