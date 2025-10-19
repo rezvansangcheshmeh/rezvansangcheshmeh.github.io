@@ -405,6 +405,8 @@ params:
             url: "#"
             tooltip: "Project Documentation"
 
+
+
       - title: "Human Pose Estimation & Movement Analysis"
         content: "Real-time human movement analysis and gesture recognition system using MediaPipe and MMPose. Applications in fitness tracking, security monitoring, and human-computer interaction with multi-person tracking capability and 3D pose estimation."
         image: "/images/projects/pose-estimation.jpg"
@@ -441,6 +443,8 @@ params:
           - icon: fa-solid fa-video
             url: "#"
             tooltip: "Demo Video"
+
+
 
       - title: "Interactive Text-Based Detective Game"
         content: "Django-powered mystery game with dynamic story progression where users solve crimes through evidence examination and interactive dialogue. Features NLP-based conversation system, multiple story branches, and character relationship management."
@@ -479,6 +483,10 @@ params:
             url: "#"
             tooltip: "Game Design Doc"
 
+
+
+
+
       - title: "Algorithmic Trading with Genetic Optimization"
         content: "AI-driven trading system using genetic algorithms to optimize strategy parameters and LSTM networks for market pattern recognition. Features real-time portfolio management, risk assessment, and comprehensive backtesting capabilities with performance analytics."
         image: "/images/projects/algorithmic-trading.jpg"
@@ -516,6 +524,9 @@ params:
             url: "#"
             tooltip: "Research Paper"
 
+
+
+
       - title: "License Plate Recognition & OCR System"
         content: "High-accuracy Automatic Number Plate Recognition (ANPR) system capable of processing multiple plates in real-time under various conditions. Features robust character segmentation, recognition with 98% accuracy in daylight conditions, and support for multiple plate formats."
         image: "/images/projects/license-plate.jpg"
@@ -552,6 +563,9 @@ params:
           - icon: fa-solid fa-camera
             url: "#"
             tooltip: "Sample Images"
+
+
+
 
       - title: "Social Media Crime Detection System"
         content: "Deep NLP classifier using BERT and custom models to detect criminal content in Persian-language social media. Implements multi-label classification for various crime categories with real-time monitoring capabilities and alert system integration."
