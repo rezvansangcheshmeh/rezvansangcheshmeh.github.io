@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Vision on Rezvan Sangcheshmeh - AI &amp; Computer Vision Specialist</title>
+    <link>https://rezvansangcheshmeh.github.io/tags/computer-vision/</link>
+    <description>Recent content in Computer Vision on Rezvan Sangcheshmeh - AI &amp; Computer Vision Specialist</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://rezvansangcheshmeh.github.io/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building Real-time Computer Vision Systems: Architecture Patterns and Best Practices</title>
+      <link>https://rezvansangcheshmeh.github.io/blogs/real-time-computer-vision-systems/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://rezvansangcheshmeh.github.io/blogs/real-time-computer-vision-systems/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://rezvansangcheshmeh.github.io/images/blog/real-time-vision-architecture.jpg&#34; alt=&#34;Real-time Computer Vision Architecture&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Building real-time computer vision systems requires careful architectural planning to balance performance, accuracy, and scalability. In this guide, I&amp;rsquo;ll share patterns and best practices from my experience developing production computer vision systems.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-architecture-components&#34;&gt;Key Architecture Components&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-video-stream-processing-pipeline&#34;&gt;1. &lt;strong&gt;Video Stream Processing Pipeline&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Multi-threaded frame capture and processing&lt;/li&gt;&#xA;&lt;li&gt;GPU acceleration with CUDA&lt;/li&gt;&#xA;&lt;li&gt;Batch processing optimization&lt;/li&gt;&#xA;&lt;li&gt;Memory management strategies&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-model-serving-infrastructure&#34;&gt;2. &lt;strong&gt;Model Serving Infrastructure&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;TensorFlow Serving vs Triton Inference Server&lt;/li&gt;&#xA;&lt;li&gt;Model versioning and A/B testing&lt;/li&gt;&#xA;&lt;li&gt;Dynamic batching for throughput optimization&lt;/li&gt;&#xA;&lt;li&gt;Resource allocation and scaling&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;performance-optimization-techniques&#34;&gt;Performance Optimization Techniques&lt;/h2&gt;&#xA;&lt;h3 id=&#34;latency-reduction&#34;&gt;Latency Reduction&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Model quantization and pruning&lt;/li&gt;&#xA;&lt;li&gt;Pipeline parallelization&lt;/li&gt;&#xA;&lt;li&gt;Hardware-specific optimizations&lt;/li&gt;&#xA;&lt;li&gt;Caching strategies for repeated inferences&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;throughput-maximization&#34;&gt;Throughput Maximization&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Async processing patterns&lt;/li&gt;&#xA;&lt;li&gt;Load balancing across multiple GPUs&lt;/li&gt;&#xA;&lt;li&gt;Efficient frame sampling&lt;/li&gt;&#xA;&lt;li&gt;Distributed processing architectures&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;em&gt;Rezvan Sangcheshmeh is an AI &amp;amp; Computer Vision Specialist with expertise in building scalable AI systems.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
