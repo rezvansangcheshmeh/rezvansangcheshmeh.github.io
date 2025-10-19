@@ -614,21 +614,21 @@ params:
         image: "/images/achievements/first-rank.jpg"
         featured: true
 
-      - title: "AI Research Publication"
-        content: "Published research paper on 'Deep Learning Approaches for Financial Fraud Detection' in reputable computer science journal. Contributed novel methodologies for fraud detection using neural networks."
-        url: "#"
-        image: "/images/achievements/research-paper.jpg"
-        featured: true
+      # - title: "AI Research Publication"
+      #   content: "Published research paper on 'Deep Learning Approaches for Financial Fraud Detection' in reputable computer science journal. Contributed novel methodologies for fraud detection using neural networks."
+      #   url: "#"
+      #   image: "/images/achievements/research-paper.jpg"
+      #   featured: true
 
-      - title: "Hackathon Winner - AI Innovation"
-        content: "Won first place in national AI hackathon for developing real-time anomaly detection system for industrial safety. Recognized for innovative approach to computer vision in safety monitoring."
-        url: "#"
-        image: "/images/achievements/hackathon.jpg"
+      # - title: "Hackathon Winner - AI Innovation"
+      #   content: "Won first place in national AI hackathon for developing real-time anomaly detection system for industrial safety. Recognized for innovative approach to computer vision in safety monitoring."
+      #   url: "#"
+      #   image: "/images/achievements/hackathon.jpg"
 
-      - title: "Open Source Contributor"
-        content: "Active contributor to multiple AI and computer vision open source projects with 500+ GitHub stars collectively. Maintained and improved libraries for computer vision and deep learning applications."
-        url: "https://github.com/rezvansangcheshmeh"
-        image: "/images/achievements/opensource.jpg"
+      # - title: "Open Source Contributor"
+      #   content: "Active contributor to multiple AI and computer vision open source projects with 500+ GitHub stars collectively. Maintained and improved libraries for computer vision and deep learning applications."
+      #   url: "https://github.com/rezvansangcheshmeh"
+      #   image: "/images/achievements/opensource.jpg"
 
   # ===== INTERESTS SECTION =====
   interests:
